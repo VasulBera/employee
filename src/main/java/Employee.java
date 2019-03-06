@@ -7,7 +7,6 @@ public class Employee {
     private String lastName;
     private Employee manager;
     private List<Employee> subordinates;
-	dssd
 
     public Employee(String firstName, String lastName) {
         this.firstName = firstName;
@@ -23,6 +22,7 @@ public class Employee {
     public void setManager(Employee manager){
         this.manager = manager;
     }
+
 
     public Employee getManager() {
         return manager;
