@@ -7,13 +7,8 @@ public class Employee {
     private String lastName;
     private Employee manager;
     private List<Employee> subordinates;
-<<<<<<< HEAD
 	private String phone;
-	private String email;
-=======
-	  private String phone;
-	  private String secondPhone;
->>>>>>> adding new phone
+	private String secondPhone;
 
     public Employee(String firstName, String lastName) {
         this.firstName = firstName;
