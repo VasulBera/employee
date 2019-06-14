@@ -8,6 +8,7 @@ public class Employee {
     private Employee manager;
     private List<Employee> subordinates;
 	  private String phone;
+	  private String secondPhone;
 
     public Employee(String firstName, String lastName) {
         this.firstName = firstName;
